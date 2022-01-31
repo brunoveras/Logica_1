@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<script>
+
+function pulaLinha () {
+
+    document.write ("<br>");
+}
+
+function mostra (frase) {
+
+    document.write (frase);
+    pulaLinha();
+}
+
+var minhaIdade = parseInt(prompt("Qual a sua idade?"));
+var idadeDoIrmao = parseInt(prompt("Qual a idade do seu irmão?"));
+var diferencaIdade = Math.abs(minhaIdade - idadeDoIrmao);
+mostra ("A diferença de idade entre você e seu irmão é " + (diferencaIdade));
+
+
+</script>

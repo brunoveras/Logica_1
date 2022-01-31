@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<script>
+
+function pulaLinha () {
+
+    document.write ("<br>");
+}
+
+function mostra (frase) {
+
+    document.write (frase);
+    pulaLinha();
+}
+
+var anoAtual = 2022;
+var anoIncial = 1500;
+var geracoes = Math.round ((2022 - 1500)/28);
+
+mostra ("De 1500 a 2022 tiveram em média " + geracoes +" gerações!");
+mostra ("Fim!")
+</script>
